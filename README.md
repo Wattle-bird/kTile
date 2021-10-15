@@ -9,13 +9,13 @@ A spritesheet tile selector interface and library in Typescript
 2. Configure the variables at the top of `kTile.ts` to match your spritesheet and its location
 
 3. Create a KTile object and trigger a callback once it is loaded:
-    ```typescript
+```typescript
 const kTile = new KTile(canvasContext);
 kTile.loaded().then(() => {...})
 ```
 
 4. Draw a tile:
-    ```typescript
+```typescript
 kTile.draw(id, x, y)
 ```
 
