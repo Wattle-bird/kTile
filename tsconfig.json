@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"noUnusedParameters": false,
+    "noImplicitAny": false,
+    "lib": [ "es2015", "dom" ],
+    "target": "ES6"
+	}
+}
